@@ -1,0 +1,6 @@
+.dark-color {
+  color: var(--dark-color);
+}
+.navigation {
+  padding: 35px 150px;
+}

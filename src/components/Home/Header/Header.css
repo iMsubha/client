@@ -1,0 +1,21 @@
+:root {
+  --dark-color: #3a4256;
+}
+.header {
+  background-image: url(../../../images/Mask\ Group\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+}
+.header::after {
+  height: 650px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 30%;
+  right: 0;
+  background-color: var(--dark-color);
+  z-index: -50;
+}
